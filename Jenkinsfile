@@ -5,7 +5,7 @@ pipeline {
 	stage('Chekcout') {
             steps {
                 git branch: 'main',
-		url: https://github.com/Yejin-Moon/source-maven-java-spring-hello-webapp.git
+		url: 'https://github.com/Yejin-Moon/source-maven-java-spring-hello-webapp.git'
             }
         }
 
